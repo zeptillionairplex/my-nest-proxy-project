@@ -1,3 +1,4 @@
+![custom Proxy Server Result](https://github.com/zeptillionairplex/my-nest-proxy-project/assets/166411937/7462d108-a9c5-46b2-88f4-40d180da4466)  
 이 문제는 최신 버전의 `http-proxy-middleware`에서 `onProxyReq`와 같은 특정 옵션을 사용하는 경우 발생할 수 있습니다. 이 문제를 해결하려면 `onProxyReq` 옵션을 올바르게 사용하도록 코드와 타입 정의를 조정해야 합니다.
 
 여기서는 `Options` 인터페이스를 명시적으로 확장하거나 타입 캐스팅을 사용하여 해결할 수 있습니다.
